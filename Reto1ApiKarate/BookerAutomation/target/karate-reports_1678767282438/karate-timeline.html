@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[1.1:35]","start":1678767095329,"end":1678767097031,"title":"src\/test\/resources\/karate\/booking\/booking[1.1:35] 23:11:35.329-23:11:37.031 Create a reservation for a user"},{"id":2,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.1:66]","start":1678767097038,"end":1678767097402,"title":"src\/test\/resources\/karate\/booking\/booking[2.1:66] 23:11:37.038-23:11:37.402 Create a reservation for a user"},{"id":3,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.2:67]","start":1678767097408,"end":1678767097770,"title":"src\/test\/resources\/karate\/booking\/booking[2.2:67] 23:11:37.408-23:11:37.770 Create a reservation for a user","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

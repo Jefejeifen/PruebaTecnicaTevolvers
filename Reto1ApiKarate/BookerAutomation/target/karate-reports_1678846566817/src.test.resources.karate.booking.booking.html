@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("11c83126-480d-44e8-a20a-136c5c951e3c",{name:"DYLAN"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.karate.booking.booking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-03-14 09:14:48 p. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[5.1:158]"><span>[5.1:158]</span> <span>Validate by obtaining an existing booking ID and validate that the correct booking information is returned.</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/karate/booking/booking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">As a user I want to automate the booker api</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5.1:158]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">GetBookingSuccessful</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5.1:158]</span>
+                <span class="scenario-name">Validate by obtaining an existing booking ID and validate that the correct booking information is returned.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>796</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5.1:158]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5.1:158]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url api.bookingRestful</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.148">
+      <div class="step-ref passed">148</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pathBooking = &#39;/booking/&#39; + 1</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.149">
+      <div class="step-ref passed">149</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path pathBooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.150">
+      <div class="step-ref passed">150</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.151">
+      <div class="step-ref passed">151</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">750</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.151">21:14:48.269 request:
+1 &gt; GET https://restful-booker.herokuapp.com/booking/1
+1 &gt; Accept: application/json
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:14:48.873 response time in milliseconds: 602
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 144
+1 &lt; Etag: W/&quot;90-reRgmuOhW+tkKmCndFcZJDQq1C0&quot;
+1 &lt; Date: Wed, 15 Mar 2023 02:14:49 GMT
+1 &lt; Via: 1.1 vegur
+{&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Ericsson&quot;,&quot;totalprice&quot;:433,&quot;depositpaid&quot;:false,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2019-04-09&quot;,&quot;checkout&quot;:&quot;2020-11-30&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.152">
+      <div class="step-ref passed">152</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.153">
+      <div class="step-ref passed">153</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.153">21:14:48.907 [print] {
+  &quot;firstname&quot;: &quot;Susan&quot;,
+  &quot;lastname&quot;: &quot;Ericsson&quot;,
+  &quot;totalprice&quot;: 433,
+  &quot;depositpaid&quot;: false,
+  &quot;bookingdates&quot;: {
+    &quot;checkin&quot;: &quot;2019-04-09&quot;,
+    &quot;checkout&quot;: &quot;2020-11-30&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.154">
+      <div class="step-ref failed">154</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Jones&quot;,&quot;totalprice&quot;:919,&quot;depositpaid&quot;:false,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2016-07-20&quot;,&quot;checkout&quot;:&quot;2020-04-09&quot;},&quot;additionalneeds&quot;: &quot;5&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">29</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.154">21:14:48.937 src/test/resources/karate/booking/booking.feature:154
+And match response contains {&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Jones&quot;,&quot;totalprice&quot;:919,&quot;depositpaid&quot;:false,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2016-07-20&quot;,&quot;checkout&quot;:&quot;2020-04-09&quot;},&quot;additionalneeds&quot;: &quot;5&quot;}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual does not contain key - &#39;additionalneeds&#39; (MAP:MAP)
+  {&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Ericsson&quot;,&quot;totalprice&quot;:433,&quot;depositpaid&quot;:false,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2019-04-09&quot;,&quot;checkout&quot;:&quot;2020-11-30&quot;}}
+  {&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Jones&quot;,&quot;totalprice&quot;:919,&quot;depositpaid&quot;:false,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2016-07-20&quot;,&quot;checkout&quot;:&quot;2020-04-09&quot;},&quot;additionalneeds&quot;:&quot;5&quot;}
+
+    $.bookingdates | not equal | match failed for name: &#39;checkin&#39; (MAP:MAP)
+    {&quot;checkin&quot;:&quot;2019-04-09&quot;,&quot;checkout&quot;:&quot;2020-11-30&quot;}
+    {&quot;checkin&quot;:&quot;2016-07-20&quot;,&quot;checkout&quot;:&quot;2020-04-09&quot;}
+
+      $.bookingdates.checkin | not equal (STRING:STRING)
+      &#39;2019-04-09&#39;
+      &#39;2016-07-20&#39;
+
+        $.totalprice | not equal (NUMBER:NUMBER)
+        433
+        919
+
+        $.lastname | not equal (STRING:STRING)
+        &#39;Ericsson&#39;
+        &#39;Jones&#39;
+
+src/test/resources/karate/booking/booking.feature:154
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

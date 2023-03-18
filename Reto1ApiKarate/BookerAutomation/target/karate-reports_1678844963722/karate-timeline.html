@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[7.1:201]","start":1678844916483,"end":1678844919428,"title":"src\/test\/resources\/karate\/booking\/booking[7.1:201] 20:48:36.483-20:48:39.428 Validate all bookings and validate existing bookings","className":"failed"},{"id":2,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[7.2:202]","start":1678844919568,"end":1678844920458,"title":"src\/test\/resources\/karate\/booking\/booking[7.2:202] 20:48:39.568-20:48:40.458 Validate all bookings and validate existing bookings","className":"failed"},{"id":3,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[7.3:203]","start":1678844920557,"end":1678844921257,"title":"src\/test\/resources\/karate\/booking\/booking[7.3:203] 20:48:40.557-20:48:41.257 Validate all bookings and validate existing bookings","className":"failed"},{"id":4,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[7.4:204]","start":1678844921325,"end":1678844921920,"title":"src\/test\/resources\/karate\/booking\/booking[7.4:204] 20:48:41.325-20:48:41.920 Validate all bookings and validate existing bookings","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.1:70]","start":1678768879412,"end":1678768881463,"title":"src\/test\/resources\/karate\/booking\/booking[2.1:70] 23:41:19.412-23:41:21.463 Failed to create a reservation for a user"},{"id":2,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.2:71]","start":1678768881472,"end":1678768881856,"title":"src\/test\/resources\/karate\/booking\/booking[2.2:71] 23:41:21.472-23:41:21.856 Failed to create a reservation for a user"},{"id":3,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.3:72]","start":1678768881863,"end":1678768882221,"title":"src\/test\/resources\/karate\/booking\/booking[2.3:72] 23:41:21.863-23:41:22.221 Failed to create a reservation for a user"},{"id":4,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.4:73]","start":1678768882230,"end":1678768882599,"title":"src\/test\/resources\/karate\/booking\/booking[2.4:73] 23:41:22.230-23:41:22.599 Failed to create a reservation for a user"},{"id":5,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.5:74]","start":1678768882608,"end":1678768882974,"title":"src\/test\/resources\/karate\/booking\/booking[2.5:74] 23:41:22.608-23:41:22.974 Failed to create a reservation for a user"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

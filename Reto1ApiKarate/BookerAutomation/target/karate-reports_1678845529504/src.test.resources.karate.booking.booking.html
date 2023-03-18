@@ -1,0 +1,1995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("11c83126-480d-44e8-a20a-136c5c951e3c",{name:"DYLAN"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.karate.booking.booking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">4</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-03-14 08:53:19 p. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[7.1:201]"><span>[7.1:201]</span> <span>Validate all bookings and validate existing bookings</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[7.2:202]"><span>[7.2:202]</span> <span>Validate all bookings and validate existing bookings</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[7.3:203]"><span>[7.3:203]</span> <span>Validate all bookings and validate existing bookings</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[7.4:204]"><span>[7.4:204]</span> <span>Validate all bookings and validate existing bookings</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/karate/booking/booking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">As a user I want to automate the booker api</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7.1:201]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">GetAllBookingsAlternative</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7.1:201]</span>
+                <span class="scenario-name">Validate all bookings and validate existing bookings</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>6220</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7.1:201]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7.1:201]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url api.bookingRestful</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.191">
+      <div class="step-ref passed">191</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pathBooking = &#39;/booking&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.192">
+      <div class="step-ref passed">192</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path pathBooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.193">
+      <div class="step-ref passed">193</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.194">
+      <div class="step-ref passed">194</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6147</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.194">20:53:12.568 request:
+1 &gt; GET https://restful-booker.herokuapp.com/booking
+1 &gt; Accept: application/json
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:53:18.358 response time in milliseconds: 5787
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 196
+1 &lt; Etag: W/&quot;c4-dW30IzaRM/RXMTL6RoANObd6Mlk&quot;
+1 &lt; Date: Wed, 15 Mar 2023 01:53:18 GMT
+1 &lt; Via: 1.1 vegur
+[{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:1}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.195">
+      <div class="step-ref passed">195</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.196">
+      <div class="step-ref passed">196</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.196">20:53:18.436 [print] [
+  {
+    &quot;bookingid&quot;: 9
+  },
+  {
+    &quot;bookingid&quot;: 7
+  },
+  {
+    &quot;bookingid&quot;: 2
+  },
+  {
+    &quot;bookingid&quot;: 11
+  },
+  {
+    &quot;bookingid&quot;: 3
+  },
+  {
+    &quot;bookingid&quot;: 8
+  },
+  {
+    &quot;bookingid&quot;: 5
+  },
+  {
+    &quot;bookingid&quot;: 4
+  },
+  {
+    &quot;bookingid&quot;: 12
+  },
+  {
+    &quot;bookingid&quot;: 6
+  },
+  {
+    &quot;bookingid&quot;: 10
+  },
+  {
+    &quot;bookingid&quot;: 1
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.197">
+      <div class="step-ref failed">197</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;bookingId&quot;:3199}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">49</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.197">20:53:18.487 src/test/resources/karate/booking/booking.feature:197
+And match response contains {&quot;bookingId&quot;:3199}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {&quot;bookingId&quot;:3199} (LIST:MAP)
+  [{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:1}]
+  {&quot;bookingId&quot;:3199}
+
+    $[11] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:1}
+    {&quot;bookingId&quot;:3199}
+
+    $[10] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:10}
+    {&quot;bookingId&quot;:3199}
+
+    $[9] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:6}
+    {&quot;bookingId&quot;:3199}
+
+    $[8] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:12}
+    {&quot;bookingId&quot;:3199}
+
+    $[7] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:4}
+    {&quot;bookingId&quot;:3199}
+
+    $[6] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:5}
+    {&quot;bookingId&quot;:3199}
+
+    $[5] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:8}
+    {&quot;bookingId&quot;:3199}
+
+    $[4] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:3}
+    {&quot;bookingId&quot;:3199}
+
+    $[3] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:11}
+    {&quot;bookingId&quot;:3199}
+
+    $[2] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:2}
+    {&quot;bookingId&quot;:3199}
+
+    $[1] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:7}
+    {&quot;bookingId&quot;:3199}
+
+    $[0] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:9}
+    {&quot;bookingId&quot;:3199}
+
+
+src/test/resources/karate/booking/booking.feature:197
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7.2:202]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">GetAllBookingsAlternative</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7.2:202]</span>
+                <span class="scenario-name">Validate all bookings and validate existing bookings</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>376</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7.2:202]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7.2:202]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url api.bookingRestful</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.191">
+      <div class="step-ref passed">191</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pathBooking = &#39;/booking&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.192">
+      <div class="step-ref passed">192</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path pathBooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.193">
+      <div class="step-ref passed">193</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.194">
+      <div class="step-ref passed">194</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">361</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.194">20:53:18.525 request:
+1 &gt; GET https://restful-booker.herokuapp.com/booking
+1 &gt; Accept: application/json
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:53:18.880 response time in milliseconds: 355
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 485
+1 &lt; Etag: W/&quot;1e5-97ZFzla4gC2orTixpS1UBaxDqDc&quot;
+1 &lt; Date: Wed, 15 Mar 2023 01:53:19 GMT
+1 &lt; Via: 1.1 vegur
+[{&quot;bookingid&quot;:25},{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:15},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:18},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:20},{&quot;bookingid&quot;:13},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:23},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:24},{&quot;bookingid&quot;:14},{&quot;bookingid&quot;:19},{&quot;bookingid&quot;:1},{&quot;bookingid&quot;:21},{&quot;bookingid&quot;:27},{&quot;bookingid&quot;:16},{&quot;bookingid&quot;:28},{&quot;bookingid&quot;:17},{&quot;bookingid&quot;:22},{&quot;bookingid&quot;:26},{&quot;bookingid&quot;:29}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.195">
+      <div class="step-ref passed">195</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.196">
+      <div class="step-ref passed">196</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.196">20:53:18.883 [print] [
+  {
+    &quot;bookingid&quot;: 25
+  },
+  {
+    &quot;bookingid&quot;: 9
+  },
+  {
+    &quot;bookingid&quot;: 7
+  },
+  {
+    &quot;bookingid&quot;: 2
+  },
+  {
+    &quot;bookingid&quot;: 11
+  },
+  {
+    &quot;bookingid&quot;: 15
+  },
+  {
+    &quot;bookingid&quot;: 3
+  },
+  {
+    &quot;bookingid&quot;: 18
+  },
+  {
+    &quot;bookingid&quot;: 8
+  },
+  {
+    &quot;bookingid&quot;: 20
+  },
+  {
+    &quot;bookingid&quot;: 13
+  },
+  {
+    &quot;bookingid&quot;: 5
+  },
+  {
+    &quot;bookingid&quot;: 4
+  },
+  {
+    &quot;bookingid&quot;: 12
+  },
+  {
+    &quot;bookingid&quot;: 23
+  },
+  {
+    &quot;bookingid&quot;: 6
+  },
+  {
+    &quot;bookingid&quot;: 10
+  },
+  {
+    &quot;bookingid&quot;: 24
+  },
+  {
+    &quot;bookingid&quot;: 14
+  },
+  {
+    &quot;bookingid&quot;: 19
+  },
+  {
+    &quot;bookingid&quot;: 1
+  },
+  {
+    &quot;bookingid&quot;: 21
+  },
+  {
+    &quot;bookingid&quot;: 27
+  },
+  {
+    &quot;bookingid&quot;: 16
+  },
+  {
+    &quot;bookingid&quot;: 28
+  },
+  {
+    &quot;bookingid&quot;: 17
+  },
+  {
+    &quot;bookingid&quot;: 22
+  },
+  {
+    &quot;bookingid&quot;: 26
+  },
+  {
+    &quot;bookingid&quot;: 29
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.197">
+      <div class="step-ref failed">197</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;bookingId&quot;:1265}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.197">20:53:18.886 src/test/resources/karate/booking/booking.feature:197
+And match response contains {&quot;bookingId&quot;:1265}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {&quot;bookingId&quot;:1265} (LIST:MAP)
+  [{&quot;bookingid&quot;:25},{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:15},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:18},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:20},{&quot;bookingid&quot;:13},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:23},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:24},{&quot;bookingid&quot;:14},{&quot;bookingid&quot;:19},{&quot;bookingid&quot;:1},{&quot;bookingid&quot;:21},{&quot;bookingid&quot;:27},{&quot;bookingid&quot;:16},{&quot;bookingid&quot;:28},{&quot;bookingid&quot;:17},{&quot;bookingid&quot;:22},{&quot;bookingid&quot;:26},{&quot;bookingid&quot;:29}]
+  {&quot;bookingId&quot;:1265}
+
+    $[28] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:29}
+    {&quot;bookingId&quot;:1265}
+
+    $[27] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:26}
+    {&quot;bookingId&quot;:1265}
+
+    $[26] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:22}
+    {&quot;bookingId&quot;:1265}
+
+    $[25] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:17}
+    {&quot;bookingId&quot;:1265}
+
+    $[24] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:28}
+    {&quot;bookingId&quot;:1265}
+
+    $[23] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:16}
+    {&quot;bookingId&quot;:1265}
+
+    $[22] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:27}
+    {&quot;bookingId&quot;:1265}
+
+    $[21] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:21}
+    {&quot;bookingId&quot;:1265}
+
+    $[20] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:1}
+    {&quot;bookingId&quot;:1265}
+
+    $[19] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:19}
+    {&quot;bookingId&quot;:1265}
+
+    $[18] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:14}
+    {&quot;bookingId&quot;:1265}
+
+    $[17] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:24}
+    {&quot;bookingId&quot;:1265}
+
+    $[16] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:10}
+    {&quot;bookingId&quot;:1265}
+
+    $[15] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:6}
+    {&quot;bookingId&quot;:1265}
+
+    $[14] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:23}
+    {&quot;bookingId&quot;:1265}
+
+    $[13] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:12}
+    {&quot;bookingId&quot;:1265}
+
+    $[12] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:4}
+    {&quot;bookingId&quot;:1265}
+
+    $[11] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:5}
+    {&quot;bookingId&quot;:1265}
+
+    $[10] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:13}
+    {&quot;bookingId&quot;:1265}
+
+    $[9] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:20}
+    {&quot;bookingId&quot;:1265}
+
+    $[8] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:8}
+    {&quot;bookingId&quot;:1265}
+
+    $[7] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:18}
+    {&quot;bookingId&quot;:1265}
+
+    $[6] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:3}
+    {&quot;bookingId&quot;:1265}
+
+    $[5] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:15}
+    {&quot;bookingId&quot;:1265}
+
+    $[4] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:11}
+    {&quot;bookingId&quot;:1265}
+
+    $[3] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:2}
+    {&quot;bookingId&quot;:1265}
+
+    $[2] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:7}
+    {&quot;bookingId&quot;:1265}
+
+    $[1] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:9}
+    {&quot;bookingId&quot;:1265}
+
+    $[0] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:25}
+    {&quot;bookingId&quot;:1265}
+
+
+src/test/resources/karate/booking/booking.feature:197
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7.3:203]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">GetAllBookingsAlternative</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7.3:203]</span>
+                <span class="scenario-name">Validate all bookings and validate existing bookings</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>351</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7.3:203]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7.3:203]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url api.bookingRestful</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.191">
+      <div class="step-ref passed">191</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pathBooking = &#39;/booking&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.192">
+      <div class="step-ref passed">192</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path pathBooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.193">
+      <div class="step-ref passed">193</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.194">
+      <div class="step-ref passed">194</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">346</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.194">20:53:18.901 request:
+1 &gt; GET https://restful-booker.herokuapp.com/booking
+1 &gt; Accept: application/json
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:53:19.244 response time in milliseconds: 343
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 536
+1 &lt; Etag: W/&quot;218-/47uJR3lPspxhdng2joxax6ePXo&quot;
+1 &lt; Date: Wed, 15 Mar 2023 01:53:19 GMT
+1 &lt; Via: 1.1 vegur
+[{&quot;bookingid&quot;:25},{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:15},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:18},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:20},{&quot;bookingid&quot;:13},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:23},{&quot;bookingid&quot;:36},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:24},{&quot;bookingid&quot;:14},{&quot;bookingid&quot;:19},{&quot;bookingid&quot;:1},{&quot;bookingid&quot;:21},{&quot;bookingid&quot;:31},{&quot;bookingid&quot;:38},{&quot;bookingid&quot;:16},{&quot;bookingid&quot;:30},{&quot;bookingid&quot;:28},{&quot;bookingid&quot;:17},{&quot;bookingid&quot;:22},{&quot;bookingid&quot;:26},{&quot;bookingid&quot;:29}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.195">
+      <div class="step-ref passed">195</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.196">
+      <div class="step-ref passed">196</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.196">20:53:19.248 [print] [
+  {
+    &quot;bookingid&quot;: 25
+  },
+  {
+    &quot;bookingid&quot;: 9
+  },
+  {
+    &quot;bookingid&quot;: 7
+  },
+  {
+    &quot;bookingid&quot;: 2
+  },
+  {
+    &quot;bookingid&quot;: 11
+  },
+  {
+    &quot;bookingid&quot;: 15
+  },
+  {
+    &quot;bookingid&quot;: 3
+  },
+  {
+    &quot;bookingid&quot;: 18
+  },
+  {
+    &quot;bookingid&quot;: 8
+  },
+  {
+    &quot;bookingid&quot;: 20
+  },
+  {
+    &quot;bookingid&quot;: 13
+  },
+  {
+    &quot;bookingid&quot;: 5
+  },
+  {
+    &quot;bookingid&quot;: 4
+  },
+  {
+    &quot;bookingid&quot;: 12
+  },
+  {
+    &quot;bookingid&quot;: 23
+  },
+  {
+    &quot;bookingid&quot;: 36
+  },
+  {
+    &quot;bookingid&quot;: 6
+  },
+  {
+    &quot;bookingid&quot;: 10
+  },
+  {
+    &quot;bookingid&quot;: 24
+  },
+  {
+    &quot;bookingid&quot;: 14
+  },
+  {
+    &quot;bookingid&quot;: 19
+  },
+  {
+    &quot;bookingid&quot;: 1
+  },
+  {
+    &quot;bookingid&quot;: 21
+  },
+  {
+    &quot;bookingid&quot;: 31
+  },
+  {
+    &quot;bookingid&quot;: 38
+  },
+  {
+    &quot;bookingid&quot;: 16
+  },
+  {
+    &quot;bookingid&quot;: 30
+  },
+  {
+    &quot;bookingid&quot;: 28
+  },
+  {
+    &quot;bookingid&quot;: 17
+  },
+  {
+    &quot;bookingid&quot;: 22
+  },
+  {
+    &quot;bookingid&quot;: 26
+  },
+  {
+    &quot;bookingid&quot;: 29
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.197">
+      <div class="step-ref failed">197</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;bookingId&quot;:3258}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.197">20:53:19.250 src/test/resources/karate/booking/booking.feature:197
+And match response contains {&quot;bookingId&quot;:3258}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {&quot;bookingId&quot;:3258} (LIST:MAP)
+  [{&quot;bookingid&quot;:25},{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:15},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:18},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:20},{&quot;bookingid&quot;:13},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:23},{&quot;bookingid&quot;:36},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:24},{&quot;bookingid&quot;:14},{&quot;bookingid&quot;:19},{&quot;bookingid&quot;:1},{&quot;bookingid&quot;:21},{&quot;bookingid&quot;:31},{&quot;bookingid&quot;:38},{&quot;bookingid&quot;:16},{&quot;bookingid&quot;:30},{&quot;bookingid&quot;:28},{&quot;bookingid&quot;:17},{&quot;bookingid&quot;:22},{&quot;bookingid&quot;:26},{&quot;bookingid&quot;:29}]
+  {&quot;bookingId&quot;:3258}
+
+    $[31] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:29}
+    {&quot;bookingId&quot;:3258}
+
+    $[30] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:26}
+    {&quot;bookingId&quot;:3258}
+
+    $[29] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:22}
+    {&quot;bookingId&quot;:3258}
+
+    $[28] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:17}
+    {&quot;bookingId&quot;:3258}
+
+    $[27] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:28}
+    {&quot;bookingId&quot;:3258}
+
+    $[26] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:30}
+    {&quot;bookingId&quot;:3258}
+
+    $[25] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:16}
+    {&quot;bookingId&quot;:3258}
+
+    $[24] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:38}
+    {&quot;bookingId&quot;:3258}
+
+    $[23] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:31}
+    {&quot;bookingId&quot;:3258}
+
+    $[22] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:21}
+    {&quot;bookingId&quot;:3258}
+
+    $[21] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:1}
+    {&quot;bookingId&quot;:3258}
+
+    $[20] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:19}
+    {&quot;bookingId&quot;:3258}
+
+    $[19] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:14}
+    {&quot;bookingId&quot;:3258}
+
+    $[18] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:24}
+    {&quot;bookingId&quot;:3258}
+
+    $[17] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:10}
+    {&quot;bookingId&quot;:3258}
+
+    $[16] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:6}
+    {&quot;bookingId&quot;:3258}
+
+    $[15] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:36}
+    {&quot;bookingId&quot;:3258}
+
+    $[14] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:23}
+    {&quot;bookingId&quot;:3258}
+
+    $[13] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:12}
+    {&quot;bookingId&quot;:3258}
+
+    $[12] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:4}
+    {&quot;bookingId&quot;:3258}
+
+    $[11] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:5}
+    {&quot;bookingId&quot;:3258}
+
+    $[10] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:13}
+    {&quot;bookingId&quot;:3258}
+
+    $[9] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:20}
+    {&quot;bookingId&quot;:3258}
+
+    $[8] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:8}
+    {&quot;bookingId&quot;:3258}
+
+    $[7] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:18}
+    {&quot;bookingId&quot;:3258}
+
+    $[6] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:3}
+    {&quot;bookingId&quot;:3258}
+
+    $[5] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:15}
+    {&quot;bookingId&quot;:3258}
+
+    $[4] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:11}
+    {&quot;bookingId&quot;:3258}
+
+    $[3] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:2}
+    {&quot;bookingId&quot;:3258}
+
+    $[2] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:7}
+    {&quot;bookingId&quot;:3258}
+
+    $[1] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:9}
+    {&quot;bookingId&quot;:3258}
+
+    $[0] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:25}
+    {&quot;bookingId&quot;:3258}
+
+
+src/test/resources/karate/booking/booking.feature:197
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7.4:204]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">GetAllBookingsAlternative</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7.4:204]</span>
+                <span class="scenario-name">Validate all bookings and validate existing bookings</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>366</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7.4:204]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7.4:204]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url api.bookingRestful</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.191">
+      <div class="step-ref passed">191</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pathBooking = &#39;/booking&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.192">
+      <div class="step-ref passed">192</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path pathBooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.193">
+      <div class="step-ref passed">193</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.194">
+      <div class="step-ref passed">194</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">360</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.194">20:53:19.268 request:
+1 &gt; GET https://restful-booker.herokuapp.com/booking
+1 &gt; Accept: application/json
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:53:19.626 response time in milliseconds: 357
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 672
+1 &lt; Etag: W/&quot;2a0-YcBSo6iqZupdnxkmZlvuTSzGfQc&quot;
+1 &lt; Date: Wed, 15 Mar 2023 01:53:19 GMT
+1 &lt; Via: 1.1 vegur
+[{&quot;bookingid&quot;:42},{&quot;bookingid&quot;:25},{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:45},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:15},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:18},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:20},{&quot;bookingid&quot;:13},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:39},{&quot;bookingid&quot;:41},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:23},{&quot;bookingid&quot;:36},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:24},{&quot;bookingid&quot;:14},{&quot;bookingid&quot;:19},{&quot;bookingid&quot;:1},{&quot;bookingid&quot;:21},{&quot;bookingid&quot;:31},{&quot;bookingid&quot;:40},{&quot;bookingid&quot;:38},{&quot;bookingid&quot;:47},{&quot;bookingid&quot;:16},{&quot;bookingid&quot;:46},{&quot;bookingid&quot;:30},{&quot;bookingid&quot;:28},{&quot;bookingid&quot;:17},{&quot;bookingid&quot;:44},{&quot;bookingid&quot;:22},{&quot;bookingid&quot;:26},{&quot;bookingid&quot;:29}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.195">
+      <div class="step-ref passed">195</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.196">
+      <div class="step-ref passed">196</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.196">20:53:19.629 [print] [
+  {
+    &quot;bookingid&quot;: 42
+  },
+  {
+    &quot;bookingid&quot;: 25
+  },
+  {
+    &quot;bookingid&quot;: 9
+  },
+  {
+    &quot;bookingid&quot;: 7
+  },
+  {
+    &quot;bookingid&quot;: 2
+  },
+  {
+    &quot;bookingid&quot;: 45
+  },
+  {
+    &quot;bookingid&quot;: 11
+  },
+  {
+    &quot;bookingid&quot;: 15
+  },
+  {
+    &quot;bookingid&quot;: 3
+  },
+  {
+    &quot;bookingid&quot;: 18
+  },
+  {
+    &quot;bookingid&quot;: 8
+  },
+  {
+    &quot;bookingid&quot;: 20
+  },
+  {
+    &quot;bookingid&quot;: 13
+  },
+  {
+    &quot;bookingid&quot;: 5
+  },
+  {
+    &quot;bookingid&quot;: 39
+  },
+  {
+    &quot;bookingid&quot;: 41
+  },
+  {
+    &quot;bookingid&quot;: 4
+  },
+  {
+    &quot;bookingid&quot;: 12
+  },
+  {
+    &quot;bookingid&quot;: 23
+  },
+  {
+    &quot;bookingid&quot;: 36
+  },
+  {
+    &quot;bookingid&quot;: 6
+  },
+  {
+    &quot;bookingid&quot;: 10
+  },
+  {
+    &quot;bookingid&quot;: 24
+  },
+  {
+    &quot;bookingid&quot;: 14
+  },
+  {
+    &quot;bookingid&quot;: 19
+  },
+  {
+    &quot;bookingid&quot;: 1
+  },
+  {
+    &quot;bookingid&quot;: 21
+  },
+  {
+    &quot;bookingid&quot;: 31
+  },
+  {
+    &quot;bookingid&quot;: 40
+  },
+  {
+    &quot;bookingid&quot;: 38
+  },
+  {
+    &quot;bookingid&quot;: 47
+  },
+  {
+    &quot;bookingid&quot;: 16
+  },
+  {
+    &quot;bookingid&quot;: 46
+  },
+  {
+    &quot;bookingid&quot;: 30
+  },
+  {
+    &quot;bookingid&quot;: 28
+  },
+  {
+    &quot;bookingid&quot;: 17
+  },
+  {
+    &quot;bookingid&quot;: 44
+  },
+  {
+    &quot;bookingid&quot;: 22
+  },
+  {
+    &quot;bookingid&quot;: 26
+  },
+  {
+    &quot;bookingid&quot;: 29
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.197">
+      <div class="step-ref failed">197</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;bookingId&quot;:1363}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.197">20:53:19.631 src/test/resources/karate/booking/booking.feature:197
+And match response contains {&quot;bookingId&quot;:1363}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {&quot;bookingId&quot;:1363} (LIST:MAP)
+  [{&quot;bookingid&quot;:42},{&quot;bookingid&quot;:25},{&quot;bookingid&quot;:9},{&quot;bookingid&quot;:7},{&quot;bookingid&quot;:2},{&quot;bookingid&quot;:45},{&quot;bookingid&quot;:11},{&quot;bookingid&quot;:15},{&quot;bookingid&quot;:3},{&quot;bookingid&quot;:18},{&quot;bookingid&quot;:8},{&quot;bookingid&quot;:20},{&quot;bookingid&quot;:13},{&quot;bookingid&quot;:5},{&quot;bookingid&quot;:39},{&quot;bookingid&quot;:41},{&quot;bookingid&quot;:4},{&quot;bookingid&quot;:12},{&quot;bookingid&quot;:23},{&quot;bookingid&quot;:36},{&quot;bookingid&quot;:6},{&quot;bookingid&quot;:10},{&quot;bookingid&quot;:24},{&quot;bookingid&quot;:14},{&quot;bookingid&quot;:19},{&quot;bookingid&quot;:1},{&quot;bookingid&quot;:21},{&quot;bookingid&quot;:31},{&quot;bookingid&quot;:40},{&quot;bookingid&quot;:38},{&quot;bookingid&quot;:47},{&quot;bookingid&quot;:16},{&quot;bookingid&quot;:46},{&quot;bookingid&quot;:30},{&quot;bookingid&quot;:28},{&quot;bookingid&quot;:17},{&quot;bookingid&quot;:44},{&quot;bookingid&quot;:22},{&quot;bookingid&quot;:26},{&quot;bookingid&quot;:29}]
+  {&quot;bookingId&quot;:1363}
+
+    $[39] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:29}
+    {&quot;bookingId&quot;:1363}
+
+    $[38] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:26}
+    {&quot;bookingId&quot;:1363}
+
+    $[37] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:22}
+    {&quot;bookingId&quot;:1363}
+
+    $[36] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:44}
+    {&quot;bookingId&quot;:1363}
+
+    $[35] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:17}
+    {&quot;bookingId&quot;:1363}
+
+    $[34] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:28}
+    {&quot;bookingId&quot;:1363}
+
+    $[33] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:30}
+    {&quot;bookingId&quot;:1363}
+
+    $[32] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:46}
+    {&quot;bookingId&quot;:1363}
+
+    $[31] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:16}
+    {&quot;bookingId&quot;:1363}
+
+    $[30] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:47}
+    {&quot;bookingId&quot;:1363}
+
+    $[29] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:38}
+    {&quot;bookingId&quot;:1363}
+
+    $[28] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:40}
+    {&quot;bookingId&quot;:1363}
+
+    $[27] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:31}
+    {&quot;bookingId&quot;:1363}
+
+    $[26] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:21}
+    {&quot;bookingId&quot;:1363}
+
+    $[25] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:1}
+    {&quot;bookingId&quot;:1363}
+
+    $[24] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:19}
+    {&quot;bookingId&quot;:1363}
+
+    $[23] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:14}
+    {&quot;bookingId&quot;:1363}
+
+    $[22] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:24}
+    {&quot;bookingId&quot;:1363}
+
+    $[21] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:10}
+    {&quot;bookingId&quot;:1363}
+
+    $[20] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:6}
+    {&quot;bookingId&quot;:1363}
+
+    $[19] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:36}
+    {&quot;bookingId&quot;:1363}
+
+    $[18] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:23}
+    {&quot;bookingId&quot;:1363}
+
+    $[17] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:12}
+    {&quot;bookingId&quot;:1363}
+
+    $[16] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:4}
+    {&quot;bookingId&quot;:1363}
+
+    $[15] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:41}
+    {&quot;bookingId&quot;:1363}
+
+    $[14] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:39}
+    {&quot;bookingId&quot;:1363}
+
+    $[13] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:5}
+    {&quot;bookingId&quot;:1363}
+
+    $[12] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:13}
+    {&quot;bookingId&quot;:1363}
+
+    $[11] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:20}
+    {&quot;bookingId&quot;:1363}
+
+    $[10] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:8}
+    {&quot;bookingId&quot;:1363}
+
+    $[9] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:18}
+    {&quot;bookingId&quot;:1363}
+
+    $[8] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:3}
+    {&quot;bookingId&quot;:1363}
+
+    $[7] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:15}
+    {&quot;bookingId&quot;:1363}
+
+    $[6] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:11}
+    {&quot;bookingId&quot;:1363}
+
+    $[5] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:45}
+    {&quot;bookingId&quot;:1363}
+
+    $[4] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:2}
+    {&quot;bookingId&quot;:1363}
+
+    $[3] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:7}
+    {&quot;bookingId&quot;:1363}
+
+    $[2] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:9}
+    {&quot;bookingId&quot;:1363}
+
+    $[1] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:25}
+    {&quot;bookingId&quot;:1363}
+
+    $[0] | not equal | actual does not contain key - &#39;bookingId&#39; (MAP:MAP)
+    {&quot;bookingid&quot;:42}
+    {&quot;bookingId&quot;:1363}
+
+
+src/test/resources/karate/booking/booking.feature:197
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

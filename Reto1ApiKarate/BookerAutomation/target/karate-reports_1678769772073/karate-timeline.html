@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[1.1:52]","start":1678769404423,"end":1678769406076,"title":"src\/test\/resources\/karate\/booking\/booking[1.1:52] 23:50:04.423-23:50:06.076 Successfully create a reservation for a user"},{"id":2,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[1.2:53]","start":1678769406083,"end":1678769406445,"title":"src\/test\/resources\/karate\/booking\/booking[1.2:53] 23:50:06.083-23:50:06.445 Successfully create a reservation for a user"},{"id":3,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.1:86]","start":1678769406451,"end":1678769406828,"title":"src\/test\/resources\/karate\/booking\/booking[2.1:86] 23:50:06.451-23:50:06.828 Failed to create a reservation for a user"},{"id":4,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.2:87]","start":1678769406832,"end":1678769407192,"title":"src\/test\/resources\/karate\/booking\/booking[2.2:87] 23:50:06.832-23:50:07.192 Failed to create a reservation for a user"},{"id":5,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.3:88]","start":1678769407197,"end":1678769407546,"title":"src\/test\/resources\/karate\/booking\/booking[2.3:88] 23:50:07.197-23:50:07.546 Failed to create a reservation for a user"},{"id":6,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.4:89]","start":1678769407550,"end":1678769407902,"title":"src\/test\/resources\/karate\/booking\/booking[2.4:89] 23:50:07.550-23:50:07.902 Failed to create a reservation for a user"},{"id":7,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[2.5:90]","start":1678769407907,"end":1678769408247,"title":"src\/test\/resources\/karate\/booking\/booking[2.5:90] 23:50:07.907-23:50:08.247 Failed to create a reservation for a user"},{"id":8,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[3.1:138]","start":1678769408252,"end":1678769408616,"title":"src\/test\/resources\/karate\/booking\/booking[3.1:138] 23:50:08.252-23:50:08.616 Alternative Scenary to create a reservation for a user"},{"id":9,"group":1,"content":"src\/test\/resources\/karate\/booking\/booking[3.2:139]","start":1678769408620,"end":1678769408984,"title":"src\/test\/resources\/karate\/booking\/booking[3.2:139] 23:50:08.620-23:50:08.984 Alternative Scenary to create a reservation for a user"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
