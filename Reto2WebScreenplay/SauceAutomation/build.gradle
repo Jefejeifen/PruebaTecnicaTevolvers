@@ -10,12 +10,6 @@ repositories {
     mavenCentral()
 }
 
-ext {
-    serenity = '3.6.12'
-    juinitVersion = '3.6.12'
-    screenplayVersion = '3.6.12'
-}
-
 dependencies {
     implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.17'
     implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.39'

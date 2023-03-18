@@ -1,4 +1,5 @@
-Feature: Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra
+#Author: Dylan Mateo Llano Jaramillo
+Feature: As a user, I need to authenticate myself in the saucedemo.com site to make the purchase process.
 
   @MakePurchaseSuccessful
   Scenario: Generate purchase
