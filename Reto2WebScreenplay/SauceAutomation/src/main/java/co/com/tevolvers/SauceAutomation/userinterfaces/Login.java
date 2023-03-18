@@ -19,7 +19,7 @@ public class Login {
                     .located(By.xpath("//input[@id='login-button']"));
 
     public static final Target TXT_FAILED_LOGIN =
-            Target.the("Btn Login")
+            Target.the("Btn failed login")
                     .located(By.xpath("//*[@id='login_button_container']/div/form/div[3]/h3"));
 
 

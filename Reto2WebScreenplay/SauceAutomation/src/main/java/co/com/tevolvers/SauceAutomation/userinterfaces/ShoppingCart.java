@@ -13,7 +13,7 @@ public class ShoppingCart {
                             .locatedBy("(//button[@class='btn btn_secondary btn_small cart_button'])[{0}]");
 
     public static final Target BTN_CHECKOUT=
-            Target.the("Button remove to product")
+            Target.the("Button checkout")
                     .located(By.xpath("//button[@id='checkout']"));
 
 }

@@ -7,7 +7,7 @@ public class Overview {
 
 
     public static final Target TXT_PRICE_RESULT =
-            Target.the("Text price products")
+            Target.the("Text price result")
                     .located(By.xpath("//div[@class='inventory_item_price']"));
 
     public static final Target TXT_PRICE_RESULT_ITEMS =

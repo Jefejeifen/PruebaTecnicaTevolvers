@@ -10,7 +10,7 @@ public class Information {
                     .located(By.xpath("//input[@id='first-name']"));
 
     public static final Target TXT_LASTNAME =
-            Target.the("Input firstname")
+            Target.the("Input lastname")
                     .located(By.xpath("//input[@id='last-name']"));
 
     public static final Target TXT_ZIP =

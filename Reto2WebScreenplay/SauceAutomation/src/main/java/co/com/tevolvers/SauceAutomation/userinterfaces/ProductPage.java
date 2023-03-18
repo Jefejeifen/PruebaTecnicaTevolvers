@@ -9,16 +9,12 @@ public class ProductPage {
             Target.the("Filter products ")
                     .located(By.xpath("//select[@class='product_sort_container']"));
 
-    public static final Target LOW_TO_HIGH =
-            Target.the("Filter low high")
-                    .located(By.xpath("//option[@value='lohi']"));
-
     public static final Target BTN_ADD_TO_CART =
             Target.the("Add product to cart")
                     .located(By.xpath("//button[@class='btn btn_primary btn_small btn_inventory']"));
 
     public static final Target BTN_SELECT_PRODUCT =
-            Target.the("Add product to cart")
+            Target.the("Button select product")
                     .locatedBy("(//button[@class='btn btn_primary btn_small btn_inventory'])[{0}]");
 
     public static final Target TXT_PRICE_PRODUCT =

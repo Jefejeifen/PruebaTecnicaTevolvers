@@ -31,7 +31,6 @@ Feature: Yo como usuario requiero autenticarme en el sitio  saucedemo.com para h
       |                 | secret_sauce | Epic sadface: Username is required                                        |
       | locked_out_user |              | Epic sadface: Password is required|
 
-
   @LogOutPage
   Scenario: The user logs out of the page
     Given the user enters the home page
