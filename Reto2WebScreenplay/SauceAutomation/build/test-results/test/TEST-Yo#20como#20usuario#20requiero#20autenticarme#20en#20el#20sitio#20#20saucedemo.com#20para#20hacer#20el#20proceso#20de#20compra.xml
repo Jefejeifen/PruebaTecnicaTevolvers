@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-03-18T01:25:05" hostname="DESKTOP-MGGS3TP" time="50.328">
+  <properties/>
+  <testcase name="Generate purchase" classname="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" time="19.24"/>
+  <testcase name="User does not login successfully" classname="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" time="6.006"/>
+  <testcase name="User does not login successfully" classname="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" time="5.425"/>
+  <testcase name="User does not login successfully" classname="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" time="5.642"/>
+  <testcase name="User does not login successfully" classname="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" time="5.827"/>
+  <testcase name="The user logs out of the page" classname="Yo como usuario requiero autenticarme en el sitio  saucedemo.com para hacer el proceso de compra" time="8.168"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar. 17, 2023 8:25:07 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 22902
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 17, 2023 8:25:11 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 17, 2023 8:25:24 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 7274
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 17, 2023 8:25:27 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 17, 2023 8:25:30 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 5746
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 17, 2023 8:25:32 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 17, 2023 8:25:36 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 41559
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 17, 2023 8:25:38 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 17, 2023 8:25:41 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 19509
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 17, 2023 8:25:43 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 17, 2023 8:25:47 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 8045
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 17, 2023 8:25:49 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

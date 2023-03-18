@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.tevolvers.SauceAutomation.runners.MakePurchaseRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-MGGS3TP" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+6 Scenarios (?[32m6 passed?[0m)
+25 Steps (?[32m25 passed?[0m)
+0m51,295s
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
